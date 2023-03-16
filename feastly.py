@@ -1,9 +1,11 @@
 import openai
 from word2number import w2n
 
-openai.api_key = "<Open AI API Key>"
+#openai.api_key = "<Open AI API Key>"
+openai.api_key = "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"
 
-messages = [{"role": "system", "content": """"For each ingredient I don't list in my query, add a note at the end to tell me that I need to buy it also, don't put any text before or after the recipe (do not write "Title: ") and end it with the last step, make all recipes detailed"""},]
+messages = [{"role": "system", "content": """"For each ingredient I don't list in my query, add a note at the end to tell me that I need to buy it also, don't put any
+             text before or after the recipe (do not write "Title: ") and end it with the last step, make all recipes detailed, if the question is not cooking related, refuse to answer"""},]
 
 time_dict = {1 : "<30 minutes", 2 : "30 minutes to 1 hour", 3 : "<2 hours", 4 : "2+ hours"}
 
@@ -77,9 +79,16 @@ while(69):
             adds = extras()
             msg = "Please give me a recipe with these ingredients: " + prompt + time + restrict + tags + adds
         messages.append({"role": "user", "content": msg})
-        chat = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=messages)
+        while(420):
+            try:
+                chat = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=messages)
+                break
+            except:
+                print("request failed, trying again")
+                pass
         reply = chat.choices[0].message.content
         messages.append({"role": "assistant", "content": reply})
         print("")
         print(reply)
+        print("")
 
