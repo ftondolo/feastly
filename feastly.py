@@ -1,8 +1,7 @@
 import openai
 from word2number import w2n
 
-#openai.api_key = "<Open AI API Key>"
-openai.api_key = "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"
+openai.api_key = "<Open AI API Key>"
 
 messages = [{"role": "system", "content": """"For each ingredient I don't list in my query, add a note at the end to tell me that I need to buy it also, don't put any
              text before or after the recipe (do not write "Title: ") and end it with the last step, make all recipes detailed, if the question is not cooking related, refuse to answer"""},]
