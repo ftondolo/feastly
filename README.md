@@ -1,6 +1,6 @@
 # feastly
 A ChatGPT-based Recipe Book
-
+[![My Skills](https://skills.thijs.gg/icons?py)](https://skills.thijs.gg)
 ### Transcript:
 ```
 beelzebub@pandemonium feastly % python feastly.py
