@@ -16,7 +16,7 @@ word2number: ```pip install word2number```
 ### Usage:
 ```python feastly.py```
 
-### Transcript:
+### Example Transcript:
 ```
 > potatoes shallots portobello mushrooms tomatoes garlic rosemary bacon
 What prep time are you looking for for this meal?
