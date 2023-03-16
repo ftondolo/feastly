@@ -40,7 +40,9 @@ Would you like to add any extra elements? (comma separated)
 
 Title: Spanish-style Spicy Potato and Portobello Mushroom Bake
 
-Overview: This Spanish-inspired dish combines the heartiness of potatoes and portobello mushrooms with the bold flavors of spicy tomato sauce and garlic. Crisp bacon and fragrant rosemary complete the dish, making it a satisfying meal that's perfect for chilly nights.
+Overview: This Spanish-inspired dish combines the heartiness of potatoes and portobello mushrooms 
+with the bold flavors of spicy tomato sauce and garlic. Crisp bacon and fragrant rosemary complete 
+the dish, making it a satisfying meal that's perfect for chilly nights.
 
 Ingredients:
 - 4 large potatoes, sliced into ¼ inch rounds
@@ -58,21 +60,27 @@ Instructions:
 
 1. Preheat your oven to 375°F (190°C).
 
-2. In a large skillet over medium heat, cook the chopped bacon until crisp. Remove from the skillet and set aside.
+2. In a large skillet over medium heat, cook the chopped bacon until crisp. Remove from the skillet 
+and set aside.
 
-3. In the same skillet, add a tablespoon of olive oil and sauté the diced shallots until they start to soften.
+3. In the same skillet, add a tablespoon of olive oil and sauté the diced shallots until they start 
+to soften.
 
 4. Add the minced garlic to the skillet and cook until fragrant.
 
-5. Add the sliced portobello mushrooms to the skillet and cook until they are browned and tender. Transfer the mushrooms, shallots, and garlic to a large mixing bowl.
+5. Add the sliced portobello mushrooms to the skillet and cook until they are browned and tender. 
+Transfer the mushrooms, shallots, and garlic to a large mixing bowl.
 
-6. Add the sliced potatoes, diced tomatoes, chopped rosemary, and spicy tomato sauce to the mixing bowl. Season with salt and pepper and stir well to combine.
+6. Add the sliced potatoes, diced tomatoes, chopped rosemary, and spicy tomato sauce to the mixing bowl. 
+Season with salt and pepper and stir well to combine.
 
-7. Use the remaining olive oil to grease a large baking dish. Transfer the potato and mushroom mixture into the baking dish.
+7. Use the remaining olive oil to grease a large baking dish. Transfer the potato and mushroom mixture 
+into the baking dish.
 
 8. Cover the baking dish with aluminum foil and bake for 45 minutes.
 
-9. After 45 minutes, remove the aluminum foil, and continue baking for 15-20 minutes or until the top is golden brown and the potatoes are tender.
+9. After 45 minutes, remove the aluminum foil, and continue baking for 15-20 minutes or until the top is 
+golden brown and the potatoes are tender.
 
 10. Sprinkle the reserved bacon bits over the top of the dish and serve hot.
 
@@ -86,11 +94,13 @@ Note: Don't forget to buy olive oil, salt, and pepper for this recipe.
 
 > Can you give me a quicker alternative?
 
-Sure! An alternative recipe that takes less time to cook is a Spanish-style potato and mushroom skillet. Here's the recipe:
+Sure! An alternative recipe that takes less time to cook is a Spanish-style potato and mushroom 
+skillet. Here's the recipe:
 
 Title: Quick Spanish-style Potato and Mushroom Skillet
 
-Overview: This recipe is a delicious and easy one-pan dish that combines tender potatoes, meaty mushrooms, and spicy tomato sauce for a flavorful meal that's ready in under 30 minutes.
+Overview: This recipe is a delicious and easy one-pan dish that combines tender potatoes, meaty 
+mushrooms, and spicy tomato sauce for a flavorful meal that's ready in under 30 minutes.
 
 Ingredients:
 - 4 medium potatoes, peeled and diced
@@ -104,22 +114,29 @@ Ingredients:
 
 Instructions:
 
-1. In a large skillet over medium-high heat, add olive oil and sauté the chopped shallots until tender, then add the minced garlic and cook for an additional 30 seconds.
+1. In a large skillet over medium-high heat, add olive oil and sauté the chopped shallots until 
+tender, then add the minced garlic and cook for an additional 30 seconds.
 
-2. Add the diced potatoes to the skillet and cook for 10-15 minutes, stirring occasionally until golden and crispy.
+2. Add the diced potatoes to the skillet and cook for 10-15 minutes, stirring occasionally until 
+golden and crispy.
 
-3. Add the diced mushrooms to the skillet and cook for an additional 5-7 minutes until they release their juices and are tender.
+3. Add the diced mushrooms to the skillet and cook for an additional 5-7 minutes until they release 
+their juices and are tender.
 
-4. Add the spicy tomato sauce and chopped rosemary to the skillet, stirring to combine. Reduce heat to low and let the sauce simmer for 5-7 minutes, until the flavors meld together.
+4. Add the spicy tomato sauce and chopped rosemary to the skillet, stirring to combine. Reduce heat 
+to low and let the sauce simmer for 5-7 minutes, until the flavors meld together.
 
-5. Season the skillet with salt and pepper to taste, then remove it from heat and let it sit for a couple of minutes before serving.
+5. Season the skillet with salt and pepper to taste, then remove it from heat and let it sit for a 
+couple of minutes before serving.
 
 6. Serve hot, garnished with additional fresh rosemary if desired.
 
 Tips:
 - For a meatier dish, add diced bacon or crumbled sausage when cooking the shallots and garlic.
-- If you want to make this dish even faster, you can use pre-diced potatoes that are sold in the frozen section of the grocery store.
-- Instead of rosemary, you can use other herbs like thyme or oregano to add more depth of flavor to the dish.
+- If you want to make this dish even faster, you can use pre-diced potatoes that are sold in the 
+frozen section of the grocery store.
+- Instead of rosemary, you can use other herbs like thyme or oregano to add more depth of flavor to 
+the dish.
 
 Note: Don't forget to buy olive oil, salt, and pepper for this recipe.
 
@@ -127,15 +144,19 @@ Note: Don't forget to buy olive oil, salt, and pepper for this recipe.
 
 Sure! Adding additional spices can really enhance the flavor of this dish. Here are a few options:
 
-1. Smoked paprika: Adds a smoky, slightly sweet flavor that pairs well with potatoes and mushrooms. Start with 1/2 tsp and adjust to taste.
+1. Smoked paprika: Adds a smoky, slightly sweet flavor that pairs well with potatoes and mushrooms. 
+Start with 1/2 tsp and adjust to taste.
 
 2. Cumin: Provides earthy, nutty notes to the dish. Start with 1/2 tsp and adjust to taste.
 
 3. Red pepper flakes: If you want to turn up the heat, add red pepper flakes to taste.
 
-4. Turmeric: This spice adds a warm, peppery flavor and a bright yellow color to the dish. Start with 1/4 tsp and adjust to taste.
+4. Turmeric: This spice adds a warm, peppery flavor and a bright yellow color to the dish. Start with 
+1/4 tsp and adjust to taste.
 
-5. Garam masala: A blend of Indian spices that adds warmth and complexity to the dish. Start with 1/2 tsp and adjust to taste.
+5. Garam masala: A blend of Indian spices that adds warmth and complexity to the dish. Start with 1/2 tsp 
+and adjust to taste.
 
-When experimenting with spices, start with a small amount and taste as you go. You can always add more, but it's difficult to take them away. Enjoy!
+When experimenting with spices, start with a small amount and taste as you go. You can always add more, 
+but it's difficult to take them away. Enjoy!
 ```
