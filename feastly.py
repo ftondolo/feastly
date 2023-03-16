@@ -3,18 +3,13 @@ from word2number import w2n
 
 openai.api_key = "<Open AI API Key>"
 
-messages = [{"role": "system", "content": """"For each ingredient I don't list that you add to 
-the recipe, add a note at the end to tell me that I need to buy it
-             also, don't put any text before or after the recipe (do not write "Title: ") and end 
-it with the last step, make all recipes detailed"""},]
+messages = [{"role": "system", "content": """"For each ingredient I don't list in my query, add a note at the end to tell me that I need to buy it also, don't put any text before or after the recipe (do not write "Title: ") and end it with the last step, make all recipes detailed"""},]
 
 time_dict = {1 : "<30 minutes", 2 : "30 minutes to 1 hour", 3 : "<2 hours", 4 : "2+ hours"}
 
-tags = {1 :"Quick", 2 :"One-pot", 3 : "Fine-Dining", 4 :  "Molecular", 5 : "French-style", 6 : 
-"Spanish", 7 : "Italian", 8 : "Mexican", 9 : "Chinese", 10 : "Spicy"}
+tags = {1 :"Quick", 2 :"One-pot", 3 : "Fine-Dining", 4 :  "Molecular", 5 : "French-style", 6 : "Spanish", 7 : "Italian", 8 : "Mexican", 9 : "Chinese", 10 : "Spicy"}
 
-additions = {1 :"give an overview of the dish and ingredient choices", 2 :"give me some tips 
-about issues that might arise while cooking"}
+additions = {1 :"give an overview of the dish and ingredient choices", 2 :"give me some tips  about issues that might arise while cooking"}
 
 def cooking_time():
     res = " which takes "
@@ -80,8 +75,7 @@ while(69):
             restrict = restrictions()
             tags = tagger()
             adds = extras()
-            msg = "Please give me a recipe with these ingredients: " + prompt + time + restrict + 
-tags + adds
+            msg = "Please give me a recipe with these ingredients: " + prompt + time + restrict + tags + adds
         messages.append({"role": "user", "content": msg})
         chat = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=messages)
         reply = chat.choices[0].message.content
