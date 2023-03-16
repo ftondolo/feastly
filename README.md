@@ -1,12 +1,12 @@
 <p align="center">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_dark_background.png">
-      <img src="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_light_background.png" height="128">
+      <img src="https://github.com/ftondolo/feastly/blob/main/feastly.png" height="128">
     </picture>
     <h1 align="center">feastly</h1>
     <h4 align="center">A ChatGPT-based Recipe Book</h4>
 </p>
-[![My Skills](https://github.com/ftondolo/feastly/blob/main/feastly.png)](https://github.com/ftondolo/feastly/)
+[![My Skills](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg)
 ### Transcript:
 ```
 beelzebub@pandemonium feastly % python feastly.py
