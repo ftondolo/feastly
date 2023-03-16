@@ -60,8 +60,8 @@ Instructions:
 
 1. Preheat your oven to 375°F (190°C).
 
-2. In a large skillet over medium heat, cook the chopped bacon until crisp. Remove from the skillet 
-and set aside.
+2. In a large skillet over medium heat, cook the chopped bacon until crisp. Remove from the skillet and 
+set aside.
 
 3. In the same skillet, add a tablespoon of olive oil and sauté the diced shallots until they start 
 to soften.
@@ -74,8 +74,8 @@ Transfer the mushrooms, shallots, and garlic to a large mixing bowl.
 6. Add the sliced potatoes, diced tomatoes, chopped rosemary, and spicy tomato sauce to the mixing bowl. 
 Season with salt and pepper and stir well to combine.
 
-7. Use the remaining olive oil to grease a large baking dish. Transfer the potato and mushroom mixture 
-into the baking dish.
+7. Use the remaining olive oil to grease a large baking dish. Transfer the potato and mushroom mixture into 
+the baking dish.
 
 8. Cover the baking dish with aluminum foil and bake for 45 minutes.
 
@@ -114,29 +114,28 @@ Ingredients:
 
 Instructions:
 
-1. In a large skillet over medium-high heat, add olive oil and sauté the chopped shallots until 
-tender, then add the minced garlic and cook for an additional 30 seconds.
+1. In a large skillet over medium-high heat, add olive oil and sauté the chopped shallots until tender, 
+then add the minced garlic and cook for an additional 30 seconds.
 
-2. Add the diced potatoes to the skillet and cook for 10-15 minutes, stirring occasionally until 
-golden and crispy.
+2. Add the diced potatoes to the skillet and cook for 10-15 minutes, stirring occasionally until golden 
+and crispy.
 
-3. Add the diced mushrooms to the skillet and cook for an additional 5-7 minutes until they release 
-their juices and are tender.
+3. Add the diced mushrooms to the skillet and cook for an additional 5-7 minutes until they release their 
+juices and are tender.
 
-4. Add the spicy tomato sauce and chopped rosemary to the skillet, stirring to combine. Reduce heat 
-to low and let the sauce simmer for 5-7 minutes, until the flavors meld together.
+4. Add the spicy tomato sauce and chopped rosemary to the skillet, stirring to combine. Reduce heat to low 
+and let the sauce simmer for 5-7 minutes, until the flavors meld together.
 
-5. Season the skillet with salt and pepper to taste, then remove it from heat and let it sit for a 
-couple of minutes before serving.
+5. Season the skillet with salt and pepper to taste, then remove it from heat and let it sit for a couple 
+of minutes before serving.
 
 6. Serve hot, garnished with additional fresh rosemary if desired.
 
 Tips:
 - For a meatier dish, add diced bacon or crumbled sausage when cooking the shallots and garlic.
-- If you want to make this dish even faster, you can use pre-diced potatoes that are sold in the 
-frozen section of the grocery store.
-- Instead of rosemary, you can use other herbs like thyme or oregano to add more depth of flavor to 
-the dish.
+- If you want to make this dish even faster, you can use pre-diced potatoes that are sold in the frozen 
+section of the grocery store.
+- Instead of rosemary, you can use other herbs like thyme or oregano to add more depth of flavor to the dish.
 
 Note: Don't forget to buy olive oil, salt, and pepper for this recipe.
 
