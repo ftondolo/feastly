@@ -40,9 +40,9 @@ Would you like to add any extra elements? (comma separated)
 
 Title: Spanish-style Spicy Potato and Portobello Mushroom Bake
 
-Overview: This Spanish-inspired dish combines the heartiness of potatoes and portobello mushrooms 
-with the bold flavors of spicy tomato sauce and garlic. Crisp bacon and fragrant rosemary complete 
-the dish, making it a satisfying meal that's perfect for chilly nights.
+Overview: This Spanish-inspired dish combines the heartiness of potatoes and portobello mushrooms with the 
+bold flavors of spicy tomato sauce and garlic. Crisp bacon and fragrant rosemary complete the dish, making 
+it a satisfying meal that's perfect for chilly nights.
 
 Ingredients:
 - 4 large potatoes, sliced into ¼ inch rounds
