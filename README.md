@@ -6,9 +6,12 @@
     <h1 align="center">feastly</h1>
     <h4 align="center">A ChatGPT-based Recipe Book</h4>
 </p>
+
 ### Dependencies:
+
 OpenAI API: ```pip install openai```
 word2number: ```pip install word2number```
+
 ### Usage:
 ```python feastly.py```
 
