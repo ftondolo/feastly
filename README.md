@@ -3,7 +3,7 @@
       <source media="(prefers-color-scheme: dark)" srcset="[https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_dark_background.png](https://github.com/ftondolo/feastly/blob/main/feastly.png)">
       <img src="https://github.com/ftondolo/feastly/blob/main/feastly.png" height="128">
     </picture>
-    <h1 align="center">feastly</h1>
+    <h1 align="center">Feastly</h1>
     <h4 align="center">A ChatGPT-based Recipe Book</h4>
 </p>
 
