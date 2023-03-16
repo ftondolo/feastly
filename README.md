@@ -10,6 +10,7 @@
 ### Dependencies:
 
 OpenAI API: ```pip install openai```
+<br>
 word2number: ```pip install word2number```
 
 ### Usage:
