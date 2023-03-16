@@ -6,7 +6,9 @@
     <h1 align="center">feastly</h1>
     <h4 align="center">A ChatGPT-based Recipe Book</h4>
 </p>
+
 [![My Skills](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg)
+
 ### Transcript:
 ```
 beelzebub@pandemonium feastly % python feastly.py
