@@ -1,16 +1,17 @@
-import openai
+import openai, pathlib, re
 from word2number import w2n
 
 openai.api_key = "<Open AI API Key>"
+data_dir = str(pathlib.Path(__file__).parent.resolve()) + "/archive/"
 
 messages = [{"role": "system", "content": """"For each ingredient I don't list in my query, add a note at the end to tell me that I need to buy it also, don't put any
-             text before or after the recipe (do not write "Title: ") and end it with the last step, make all recipes detailed, if the question is not cooking related, refuse to answer"""},]
+             text before or after the recipe (do not write "Title: ") and end it with the last step, make all recipes as detailed and verbose as possible, if the question is not cooking related, refuse to answer"""},]
 
 time_dict = {1 : "<30 minutes", 2 : "30 minutes to 1 hour", 3 : "<2 hours", 4 : "2+ hours"}
 
-tags = {1 :"Quick", 2 :"One-pot", 3 : "Fine-Dining", 4 :  "Molecular", 5 : "French-style", 6 : "Spanish", 7 : "Italian", 8 : "Mexican", 9 : "Chinese", 10 : "Spicy"}
+tag_dict = {1 :"Quick", 2 :"One-pot", 3 : "Fine-Dining", 4 :  "Molecular", 5 : "French-style", 6 : "Spanish", 7 : "Italian", 8 : "Mexican", 9 : "Chinese", 10 : "Spicy"}
 
-additions = {1 :"give an overview of the dish and ingredient choices", 2 :"give me some tips  about issues that might arise while cooking"}
+additions_dict = {1 :"give an overview of the dish and ingredient choices", 2 :"give me some tips  about issues that might arise while cooking"}
 
 def cooking_time():
     res = " which takes "
@@ -25,15 +26,15 @@ def cooking_time():
 def tagger():
     res = " with tags like: "
     print("Are there any tags you would like to associate? (comma separated)")
-    for tag in tags:
-        print("("+str(tag)+") - " + tags[tag])
+    for tag in tag_dict:
+        print("("+str(tag)+") - " + tag_dict[tag])
     print(">", end =" ")
     response = input().split(",")
     if response[0].strip() == "":
         return ""
     response = [r.strip() for r in response]
     for each in response:
-        res +=  tags[int(each)] + " "
+        res +=  tag_dict[int(each)] + " "
     return res
 
 def extras():
@@ -47,7 +48,7 @@ def extras():
         return ""
     response = [r.strip() for r in response]
     for each in response:
-        res +=  additions[int(each)] + " "
+        res +=  additions_dict[int(each)] + " "
     return res
 
 def restrictions():
@@ -66,28 +67,42 @@ def restrictions():
     return res
 
 while(69):
+    save = 0
     print(">", end =" ")
     prompt = input()
     if (prompt != ""):
         prompt = prompt.lower()
         msg = prompt
-        if (len(messages) == 1):
+        if (msg == "!save"):
+            save = 1
+            output = open(data_dir+ keywords+".txt", "w")
+            n = output.write(reply)
+            output.close()
+        keywords = "_".join(list(filter(None, re.split(",| ",msg))))
+        if (len(messages) == 1) or (msg == "!restart"):
+            if (msg == "!restart") :
+                print(">", end =" ")
+                prompt = input()
+                prompt = prompt.lower()
+                msg = prompt
+                keywords = "_".join(list(filter(None, re.split(",| ",msg))))
             time = cooking_time()
             restrict = restrictions()
             tags = tagger()
             adds = extras()
             msg = "Please give me a recipe with these ingredients: " + prompt + time + restrict + tags + adds
-        messages.append({"role": "user", "content": msg})
-        while(420):
-            try:
-                chat = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=messages)
-                break
-            except:
-                print("request failed, trying again")
-                pass
-        reply = chat.choices[0].message.content
-        messages.append({"role": "assistant", "content": reply})
-        print("")
-        print(reply)
-        print("")
+        if save != 1 :
+            messages.append({"role": "user", "content": msg})
+            while(420):
+                try:
+                    chat = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=messages)
+                    break
+                except:
+                    print("request failed, trying again")
+                    pass
+            reply = chat.choices[0].message.content
+            messages.append({"role": "assistant", "content": reply})
+            print("")
+            print(reply)
+            print("")
 
