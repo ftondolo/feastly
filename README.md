@@ -1,5 +1,6 @@
 # feastly
 A ChatGPT-based Recipe Book
+<br>
 [![My Skills](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg)
 ### Transcript:
 ```
