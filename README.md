@@ -5,7 +5,6 @@
     </picture>
     <h1 align="center">feastly</h1>
     <h4 align="center">A ChatGPT-based Recipe Book</h4>
-    <img src="(https://skills.thijs.gg/icons?i=py" height="16">
 </p>
 
 ### Transcript:
