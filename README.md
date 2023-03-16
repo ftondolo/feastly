@@ -2,7 +2,7 @@
 ## A ChatGPT-based Recipe Book
 
 ### Transcript:
-
+```
 beelzebub@pandemonium feastly % python feastly.py
 > potatoes shallots portobello mushrooms tomatoes garlic rosemary bacon
 What prep time are you looking for for this meal?
@@ -132,3 +132,4 @@ Sure! Adding additional spices can really enhance the flavor of this dish. Here 
 5. Garam masala: A blend of Indian spices that adds warmth and complexity to the dish. Start with 1/2 tsp and adjust to taste.
 
 When experimenting with spices, start with a small amount and taste as you go. You can always add more, but it's difficult to take them away. Enjoy!
+```
