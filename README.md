@@ -6,10 +6,14 @@
     <h1 align="center">feastly</h1>
     <h4 align="center">A ChatGPT-based Recipe Book</h4>
 </p>
+### Dependencies:
+OpenAI API: ```pip install openai```
+word2number: ```pip install word2number```
+### Usage:
+'''python feastly.py"
 
 ### Transcript:
 ```
-beelzebub@pandemonium feastly % python feastly.py
 > potatoes shallots portobello mushrooms tomatoes garlic rosemary bacon
 What prep time are you looking for for this meal?
 (1) - <30 minutes
