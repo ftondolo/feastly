@@ -5,9 +5,8 @@
     </picture>
     <h1 align="center">feastly</h1>
     <h4 align="center">A ChatGPT-based Recipe Book</h4>
+    [![My Skills](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg)
 </p>
-
-[![My Skills](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg)
 
 ### Transcript:
 ```
