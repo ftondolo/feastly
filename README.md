@@ -10,7 +10,7 @@
 OpenAI API: ```pip install openai```
 word2number: ```pip install word2number```
 ### Usage:
-'''python feastly.py"
+```python feastly.py```
 
 ### Transcript:
 ```
