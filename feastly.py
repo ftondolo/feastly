@@ -1,12 +1,12 @@
 import openai, pathlib, re, os, heapq, codecs
 from word2number import w2n
 
-openai.api_key = "<Open AI API Key>"
+#openai.api_key = "<Open AI API Key>"
+openai.api_key = "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"
 data_dir = str(pathlib.Path(__file__).parent.resolve()) + "/archive/"
 
-messages = [{"role": "system", "content": """"For each ingredient I don't list in my query, add a note at the end to tell me that I need to buy it also, don't put any
-             text before or after the recipe (do not write "Title: ") and end it with the last step, make all recipes as detailed and verbose as possible, if the question is not cooking related, refuse to answer
-             the first line of your response should be exclusively the title of the recipe"""},]
+messages = [{"role": "system", "content": """"the first line of your response should be exclusively the title of the recipe and end it with the last step, make all recipes as detailed and verbose 
+             as possible, if the question is not to do with cooking or recipes, refuse to answer"""},]
 
 time_dict = {1 : "<30 minutes", 2 : "30 minutes to 1 hour", 3 : "<2 hours", 4 : "2+ hours"}
 
@@ -40,7 +40,7 @@ def surveyor(keywords):
     return res
 
 def cooking_time():
-    res = " which takes "
+    res = " which takes about "
     print("What prep time are you looking for for this meal?")
     for time in time_dict:
         print("("+str(time)+") - " + time_dict[time])
@@ -50,7 +50,7 @@ def cooking_time():
     return res
 
 def tagger():
-    res = " with tags like: "
+    res = " with adjectives like: "
     print("Are there any tags you would like to associate? (comma separated)")
     for tag in tag_dict:
         print("("+str(tag)+") - " + tag_dict[tag])
@@ -99,6 +99,8 @@ while(69):
     if (prompt != ""):
         prompt = prompt.lower()
         msg = prompt
+        if (msg == "!quit"):
+            exit(0)
         if (msg == "!save"):
             save = 1
             output = codecs.open(data_dir+ "_".join(keywords) +".txt", "w", "utf-8")
