@@ -1,8 +1,7 @@
 import openai, pathlib, re, os, heapq, codecs
 from word2number import w2n
 
-#openai.api_key = "<Open AI API Key>"
-openai.api_key = "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"
+openai.api_key = "<Open AI API Key>"
 data_dir = str(pathlib.Path(__file__).parent.resolve()) + "/archive/"
 
 messages = [{"role": "system", "content": """"For each ingredient I don't list in my query, add a note at the end to tell me that I need to buy it also, don't put any
