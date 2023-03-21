@@ -14,6 +14,8 @@ tag_dict = {1 :"Quick", 2 :"One-pot", 3 : "Fine-Dining", 4 :  "Molecular", 5 : "
 
 additions_dict = {1 :"give an overview of the dish and ingredient choices", 2 :"give me some tips  about issues that might arise while cooking"}
 
+keyword = 0
+
 def surveyor(keywords):
     res = []
     ref_table = []
@@ -107,8 +109,9 @@ while(69):
             n = output.write(reply)
             output.close()
             pass
-        if (msg != "!restart" and msg != "!save") :
+        if (msg != "!restart" and msg != "!save") and not keyword:
             keywords = list(filter(None, re.split(",| ",msg)))
+            keyword = 1
         if (len(messages) == 1) or (msg == "!restart"):
             if (msg == "!restart") :
                 print(">", end =" ")
