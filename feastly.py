@@ -1,8 +1,7 @@
 import openai, pathlib, re, os, heapq, codecs
 from word2number import w2n
 
-#openai.api_key = "<Open AI API Key>"
-openai.api_key = "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"
+openai.api_key = "<Open AI API Key>"
 data_dir = str(pathlib.Path(__file__).parent.resolve()) + "/archive/"
 
 messages = [{"role": "system", "content": """"the first line of your response should be exclusively the title of the recipe and end it with the last step, make all recipes as detailed and verbose 
